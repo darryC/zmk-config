@@ -6,7 +6,6 @@
 
 #pragma once
 
-#include <usb/usb_device.h>
 #include <usb/class/usb_hid.h>
 #include <zmk/matrix.h>
 #include <zmk/keys.h>
