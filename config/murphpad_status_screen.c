@@ -81,7 +81,7 @@ lv_obj_t *zmk_display_status_screen() {
 
     panic_label = lv_label_create(center_frame, NULL);
     lv_label_set_text(panic_label, "Panic");
-#endif // IS_ENABLED(CONFIG_ZAPHOD_BONGO_CAT)
+#endif // IS_ENABLED(CONFIG_MURPHPAD_BONGO_CAT)
 
 #if IS_ENABLED(CONFIG_ZMK_WIDGET_LAYER_STATUS)
     zmk_widget_layer_status_init(&layer_status_widget, screen);
